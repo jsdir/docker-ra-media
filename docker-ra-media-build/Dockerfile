@@ -1,6 +1,6 @@
 FROM jsdir/ra-media:0.1.0
 
-RUN apk add --update curl git mercurial bzr go && rm -rf /var/cache/apk/*
+RUN apk add --update bash curl git mercurial bzr go && rm -rf /var/cache/apk/*
 
 ENV GOROOT /usr/lib/go
 ENV GOPATH /gopath
