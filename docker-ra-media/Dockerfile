@@ -1,3 +1,3 @@
-FROM gliderlabs/alpine:3.1
+FROM gliderlabs/alpine:3.2
 
 RUN apk add --update ca-certificates ffmpeg && rm -rf /var/cache/apk/*
